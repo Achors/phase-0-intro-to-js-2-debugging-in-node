@@ -1,5 +1,6 @@
 let count = 1;
-while (count < 5) {
+while (count < 20) {
+  debugger;
   if (count === 1) {
     console.log(`The loop has executed ${count} time.`);
   } else {
